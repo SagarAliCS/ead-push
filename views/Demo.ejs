@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Static Middleware Demo</title>
+</head>
+<body>
+  <img src="/node.png" width="100" height="100" />
+  <h1>Student Details</h1>
+  <p><%= student.name %></p>
+  <p><%= student.university %></p>
+  <p><%= student.department %></p>
+
+  <% if(student.department==('cs')){%>
+
+    <p>You are programmer</p>
+
+ <% } else { %>
+  <p>You are not programmer</p>
+  <% } %>
+</body>
+</html>
